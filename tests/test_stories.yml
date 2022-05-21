@@ -1,91 +1,99 @@
-#### This file contains tests to evaluate that your bot behaves as expected.
-#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
-
+version: "2.0"
 stories:
 - story: happy path 1
   steps:
-  - user: |
+  - intent: greet
+    user: |-
       hello there!
-    intent: greet
   - action: utter_greet
-  - user: |
+  - intent: mood_great
+    user: |-
       amazing
-    intent: mood_great
   - action: utter_happy
-
 - story: happy path 2
   steps:
-  - user: |
+  - intent: greet
+    user: |-
       hello there!
-    intent: greet
   - action: utter_greet
-  - user: |
+  - intent: mood_great
+    user: |-
       amazing
-    intent: mood_great
   - action: utter_happy
-  - user: |
+  - intent: goodbye
+    user: |-
       bye-bye!
-    intent: goodbye
   - action: utter_goodbye
-
 - story: sad path 1
   steps:
-  - user: |
+  - intent: greet
+    user: |-
       hello
-    intent: greet
   - action: utter_greet
-  - user: |
+  - intent: mood_unhappy
+    user: |-
       not good
-    intent: mood_unhappy
   - action: utter_cheer_up
   - action: utter_did_that_help
-  - user: |
+  - intent: affirm
+    user: |-
       yes
-    intent: affirm
   - action: utter_happy
-
 - story: sad path 2
   steps:
-  - user: |
+  - intent: greet
+    user: |-
       hello
-    intent: greet
   - action: utter_greet
-  - user: |
+  - intent: mood_unhappy
+    user: |-
       not good
-    intent: mood_unhappy
   - action: utter_cheer_up
   - action: utter_did_that_help
-  - user: |
+  - intent: deny
+    user: |-
       not really
-    intent: deny
   - action: utter_goodbye
-
 - story: sad path 3
   steps:
-  - user: |
+  - intent: greet
+    user: |-
       hi
-    intent: greet
   - action: utter_greet
-  - user: |
+  - intent: mood_unhappy
+    user: |-
       very terrible
-    intent: mood_unhappy
   - action: utter_cheer_up
   - action: utter_did_that_help
-  - user: |
+  - intent: deny
+    user: |-
       no
-    intent: deny
   - action: utter_goodbye
-
 - story: say goodbye
   steps:
-  - user: |
+  - intent: goodbye
+    user: |-
       bye-bye!
-    intent: goodbye
   - action: utter_goodbye
-
 - story: bot challenge
   steps:
-  - user: |
+  - intent: bot_challenge
+    user: |-
       are you a bot?
-    intent: bot_challenge
   - action: utter_iamabot
+- story: Story from Conversation ID 65cd9b8ad59e4c53a7973cb1896b13e4
+  steps:
+  - intent: office_365
+    user: |-
+      permisi, saya ingin bertanya mengenai office
+  - action: utter_office_365
+  - action: utter_goodbye
+  - action: utter_feedback
+- story: Story from Conversation ID d8c0cf4c756b471fb330d3279d492ac1
+  steps:
+  - intent: domain_hosting
+    user: |-
+      pengajuan hosting untuk lab
+  - action: utter_domain_hosting
+  - action: utter_goodbye
+  - action: utter_feedback

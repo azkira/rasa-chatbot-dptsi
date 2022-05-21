@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: greet
   examples: |
@@ -16,7 +15,6 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-
 - intent: goodbye
   examples: |
     - good afternoon
@@ -30,7 +28,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-
 - intent: affirm
   examples: |
     - yes
@@ -39,54 +36,87 @@ nlu:
     - of course
     - that sounds good
     - correct
-
-- intent: deny
+- intent: vpn
   examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
-
-- intent: mood_great
+    - saya ingin mengakses vpn
+    - ingin bertanya mengenai vpn
+    - bagaimana cara saya dapat mengakses vpn?
+    - pemberian akses untuk vpn
+    - prosedur untuk menggunakan vpn
+    - pengajuan untuk mendapatkan akses vpn
+- intent: my_its_integra
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
+    - mohon bantuannya untuk reset password integra
+    - saya ingin mengajukan reset password untuk akun MyITS saya
+    - tolong saya tidak bisa login di MyITS
+    - unlock akun MyITS saya untuk melakukan absen
+    - ingin bertanya jika saya lupa password MyITS
+    - saya lupa password dan username di Integra
+- intent: zoom
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
-- intent: bot_challenge
+    - saya ingin mengajukan link meeting untuk kelas
+    - permisi, saya ingin mengajukan lisensi zoom untuk himpunan
+    - halo, bagaimana caranya saya untuk mengajukan akun zoom dari ITS?
+    - apakah zoom yang disediakan oleh ITS berupa akun premium?
+    - apakah ITS menyediakan lisensi zoom?
+    - bagaimana cara saya dapat mengakses zoom ITS?
+- intent: office_365
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - sinkronisasi office 365 dengan email ITS mahasiswa
+    - gagal untuk melakukan sinkronisasi office 365
+    - ingin tahu cara untuk mengambil office 365 untuk mahasiswa baru
+    - terdapat kendala dalam melakukan sinkronisasi office 365
+    - belum dapat mengakses office 365 dari ITS
+    - terdapat keluhan office 365 tidak dapat diakses
+    - permisi, saya ingin bertanya mengenai office
+- intent: teams
+  examples: |
+    - request akun Microsoft Teams untuk mahasiswa
+    - apakah mahasiswa mendapatkan lisensi untuk Microsoft Teams?
+    - request akun teams untuk dosen
+    - akun teams untuk keperluan meeting himpunan
+    - apakah akun Microsoft ITS mendapatkan layanan Teams?
+    - ms teams apakah dapat diakses melalui akun microsoft dari ITS?
+- intent: azure
+  examples: |
+    - saya ingin login akun microsoft azure
+    - apakah mahasiswa mendapatkan layanan azure dari ITS?
+    - cara untuk mengklaim credit azure dari ITS
+    - tidak dapat login Microsoft Azure ITS
+    - tata cara mendaftar akun ms azure milik its
+    - jumlah credit yang diberikan untuk azure mahasiswa
+- intent: internet
+  examples: |
+    - tidak bisa mengakses internet di wilayah ITS
+    - koneksi internet ikoma ITS mohon untuk diperbaiki
+    - internet di pwk mati total
+    - error jaringan wifi pada gedung elektro
+    - keluhan terjadi kelambatan pada koneksi internet di teknik komputer
+    - wifi sudah mati seminggu di aktuaria, apa prosedur yang harus dilakukan?
+- intent: domain_hosting
+  examples: |
+    - pindah server website untuk hosting zeus dptsi
+    - minta akses untuk VPS
+    - server zeus dptsi ITS mati
+    - minta dibuatkan VPS server domain audit ITS
+    - mengganti DNS inilho ITS
+    - SSL jmmi ITS bermasalah, tolong untuk dibantu
+    - minta dibuatkan server untuk keperluan departemen
+    - pengajuan hosting untuk lab
+- intent: daftar_forlapsivil
+  examples: |
+    - nomor ijazah tidak terdeteksi
+    - layanan pendataan forlap dikti
+    - perihal ijazah tidak dapat diverifikasi sivil sistem
+    - nomor ijazah alumni salah
+    - status lulus ijazah tidak terdaftar pada alumni
+    - daftar nomor ijazah ristekdikti
+- intent: sim
+  examples: |
+    - menu sim akademik mahasiswa tidak dapat terlihat
+    - akun classroom its tidak bisa menggunakan sso
+    - presensi its hilang
+    - course overview di my its classroom belum terlihat
+    - absen tendik tidak bisa digunakan
+    - classroom its tidak responsif sehingga sulit untuk digunakan
+    - terjadi masalah pada css my its classroom sehingga tidak dapat mengerjakan soal eas

@@ -1,34 +1,76 @@
-version: "2.0"
-
-intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-
-responses:
-  utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
+version: '2.0'
+config:
+  store_entities_as_slots: true
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- vpn:
+    use_entities: true
+- my_its_integra:
+    use_entities: true
+- zoom:
+    use_entities: true
+- office_365:
+    use_entities: true
+- teams:
+    use_entities: true
+- azure:
+    use_entities: true
+- internet:
+    use_entities: true
+- domain_hosting:
+    use_entities: true
+- daftar_forlapsivil:
+    use_entities: true
+- sim:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+  utter_greet:
+  - text: Halo! Chatbot DPTSI disini, ada yang bisa Saya bantu?
+  utter_vpn:
+  - text: Jika anda mengalami permasalahan dan ingin mengakses VPN ITS tolong kunjungi website resmi kami.
+  utter_goodbye:
+  - text: Terima kasih telah menggunakan layanan kami.
+  utter_my_its_integra:
+  - text: Jika anda tidak dapat masuk kedalam akun MyITS atau akun Integra anda, tolong hubungi service desk kami.
+  utter_feedback:
+  - text: Jika masalah Anda sudah terselesaikan mohon bantuannya untuk mengisi lembar feedback demi perkembangan layanan Chatbot. Terima Kasih \n\nhttps://forms.gle/uUbyrjj2YBTcZRtJ8
+  utter_zoom:
+  - text: Untuk mengajukan akun zoom berlisensi ITS, silahkan mengajukan melalui servicedesk. \n\nUntuk melakukan request meeting zoom, silahkan membuat surat permohonan yang ditujukan ke DPTSI.
+  utter_office_365:
+  - text: 'Jika anda mengalami masalah untuk masuk ke email anda atau akun office 365 anda, berikut beberapa cara untuk mengaksesnya. jika anda lupa dengan username dan password email anda, berikut beberapa langkah yang dapat dilakukan: \n\n1. Masuk ke integra.its.ac.id/app.php, \n2. Pilih Mailbox Mahasiswa / Mailbox Staff, \n3. Masukkan username dan password integra. \n\nJika anda mengalami permasalahan sinkronisasi office 365, anda dapat menyampaikan kelengkapan data anda pada servicedesk.its.ac.id dengan list data sebagai berikut: \nNama: \nDepartemen: \nNRP: \nUsername Integra: \nSelanjutnya mohon ditunggu, akan kami lakukan proses check terlebih dahulu bersama tim. Terima kasih atas pengertiannya.'
+  utter_teams:
+  - text: 'Jika anda mengalami permasalahan untuk mengakses Microsoft Teams, berikut adalah cara untuk mengaksesnya: \n\n1. Login ke akun MyITS, \n2. Pilih MS Teams, \n3. Anda akan di arahkan ke halaman login Microsoft, \n4. Setelah login anda akan diarahkan ke halaman login MS Teams. \nTerima kasih atas pengertiannya.'
+  utter_azure:
+  - text: |-
+      Jika anda mengalami permasalahan untuk mengakses Microsoft Azure, berikut adalah cara untuk mengaksesnya:
+                1. Login ke akun MyITS,
+                2. Pilih MS Azure,
+                3. Anda akan di arahkan ke halaman login Microsoft,
+                4. Setelah login anda akan diarahkan ke halaman login MS Azure.
+                Terima kasih atas pengertiannya.
+  utter_internet:
+  - text: |-
+      Apabila anda mengalami permasalahan internet pada wifi pada wilayah kampus ITS, 
+                 tolong isi form ini agar kami mengetahui lokasi dan melakukan proses pemeriksaan lebih lanjut.
+                 \n\nNama Pelapor:\nNomor Telefon:\nNama Wifi:\nLokasi Wifi:\n\nKami dan tim akan segera melakukan proses pemeriksaan internet tersebut, 
+                 jika diperlukan kami akan mengirimkan tim jaringan untuk memeriksa langsung kondisi lapangan. Selanjutnya mohon ditunggu, akan kami lakukan proses check terlebih dahulu bersama tim. 
+                 Terimakasih atas pengertiannya
+  utter_domain_hosting:
+  - text: Apabila anda mengalami permasalahan mengenai domain, hosting, dan server atau memiliki permintaan tertentu mengenai domain, hosting, dan server. Anda dapat langsung mengisi aplikasi simdom yang dapat diakses di my.its.ac.id.\n\nSelanjutnya mohon ditunggu, akan kami lakukan proses check ataupun penyetujuan terlebih dahulu bersama tim. Terimakasih atas pengertiannya.
+  utter_daftar_forlapsivil:
+  - text: Jika anda ingin melakukan pendaftaran pada Forlap atau Ijazah anda belum terverifikasi di Forlap/SIVIL/PDPT, mohon diinfokan melalui servicedesk.its.ac.id data-data berikut.\n\nNama :\nDepartemen:\nNRP:\nTahun Lulus:\n\nTolong sertakan juga scan atau foto ijazah anda. Selanjutnya mohon ditunggu, akan kami lakukan proses check terlebih dahulu bersama tim. Terimakasih atas pengertiannya
+  utter_sim:
+  - text: Jika anda mengalami permasalahan mengenai SIM anda dapat sampaikan keluhan yang anda alami beserta dengan screenshoot dari SIM yang bermasalah kepada servicedesk.its.ac.id.\n\nSelanjutnya mohon ditunggu, akan kami lakukan proses check mengenai sistem terlebih dahulu bersama tim. Terimakasih atas pengertiannya
+actions: []
+forms: {}
+e2e_actions: []
