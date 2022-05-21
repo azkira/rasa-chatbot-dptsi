@@ -97,3 +97,47 @@ stories:
   - action: utter_domain_hosting
   - action: utter_goodbye
   - action: utter_feedback
+- story: Story from Conversation ID b57118aa5d6b4492a24ade6c32a6bc50
+  steps:
+  - intent: office_365
+    user: |-
+      o365 download its maba
+  - action: utter_office_365
+  - action: utter_goodbye
+  - action: utter_feedback
+- story: Story from Conversation ID 8bba3408f9984922b3633fc3347dfc4c
+  steps:
+  - intent: greet
+    user: |-
+      halo dptsi
+  - action: utter_greet
+- story: Story from Conversation ID 887d3ddd16e04a12b0214d93f91d7766
+  steps:
+  - intent: greet
+    user: |-
+      halo bot
+  - action: utter_greet
+- story: Story from Conversation ID 385e4a73820d424caa0045050575a06d
+  steps:
+  - intent: vpn
+    user: |-
+      saya butuh vpn sekarang juga
+  - action: utter_vpn
+  - action: utter_anything_else
+  - intent: affirm
+    user: |-
+      sudah
+  - action: utter_feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 624c08f60cd24fc2b998b0f37b3c07b4
+  steps:
+  - intent: teams
+    user: |-
+      saya ingin microsoft teams
+  - action: utter_teams
+  - action: utter_anything_else
+  - intent: affirm
+    user: |-
+      terbantu
+  - action: utter_feedback
+  - action: utter_goodbye

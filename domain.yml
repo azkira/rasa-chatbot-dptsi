@@ -71,6 +71,8 @@ responses:
   - text: Jika anda ingin melakukan pendaftaran pada Forlap atau Ijazah anda belum terverifikasi di Forlap/SIVIL/PDPT, mohon diinfokan melalui servicedesk.its.ac.id data-data berikut.\n\nNama :\nDepartemen:\nNRP:\nTahun Lulus:\n\nTolong sertakan juga scan atau foto ijazah anda. Selanjutnya mohon ditunggu, akan kami lakukan proses check terlebih dahulu bersama tim. Terimakasih atas pengertiannya
   utter_sim:
   - text: Jika anda mengalami permasalahan mengenai SIM anda dapat sampaikan keluhan yang anda alami beserta dengan screenshoot dari SIM yang bermasalah kepada servicedesk.its.ac.id.\n\nSelanjutnya mohon ditunggu, akan kami lakukan proses check mengenai sistem terlebih dahulu bersama tim. Terimakasih atas pengertiannya
+  utter_anything_else:
+  - text: Apakah Anda sudah merasa terbantu? Jika belum, Anda dapat menuliskan keperluan anda untuk tetap menggunakan layanan Chatbot DPTSI.
 actions: []
 forms: {}
 e2e_actions: []

@@ -15,6 +15,7 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - halo dptsi
 - intent: goodbye
   examples: |
     - good afternoon
@@ -36,6 +37,9 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - saya merasa sudah terbantu
+    - sudah
+    - terbantu
 - intent: vpn
   examples: |
     - saya ingin mengakses vpn
@@ -44,6 +48,7 @@ nlu:
     - pemberian akses untuk vpn
     - prosedur untuk menggunakan vpn
     - pengajuan untuk mendapatkan akses vpn
+    - saya butuh vpn sekarang juga
 - intent: my_its_integra
   examples: |
     - mohon bantuannya untuk reset password integra
@@ -69,6 +74,7 @@ nlu:
     - belum dapat mengakses office 365 dari ITS
     - terdapat keluhan office 365 tidak dapat diakses
     - permisi, saya ingin bertanya mengenai office
+    - o365 download its maba
 - intent: teams
   examples: |
     - request akun Microsoft Teams untuk mahasiswa

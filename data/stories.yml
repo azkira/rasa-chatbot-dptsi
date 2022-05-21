@@ -6,77 +6,117 @@ stories:
   - action: utter_greet
   - intent: zoom
   - action: utter_zoom
-  - action: utter_goodbye
+  - action: utter_anything_else
+  - intent: affirm
   - action: utter_feedback
+  - action: utter_goodbye
 - story: Vpn Story
   steps:
   - intent: greet
   - action: utter_greet
   - intent: vpn
   - action: utter_vpn
-  - action: utter_goodbye
+  - action: utter_anything_else
+  - intent: affirm
   - action: utter_feedback
+  - action: utter_goodbye
 - story: My_its_integra Story
   steps:
   - intent: greet
   - action: utter_greet
   - intent: my_its_integra
   - action: utter_my_its_integra
-  - action: utter_goodbye
+  - action: utter_anything_else
+  - intent: affirm
   - action: utter_feedback
+  - action: utter_goodbye
 - story: Office_365 Story
   steps:
   - intent: greet
   - action: utter_greet
   - intent: office_365
   - action: utter_office_365
-  - action: utter_goodbye
+  - action: utter_anything_else
+  - intent: affirm
   - action: utter_feedback
+  - action: utter_goodbye
 - story: Teams Story
   steps:
   - intent: greet
   - action: utter_greet
   - intent: teams
   - action: utter_teams
-  - action: utter_goodbye
+  - action: utter_anything_else
+  - intent: affirm
   - action: utter_feedback
+  - action: utter_goodbye
 - story: Azure Story
   steps:
   - intent: greet
   - action: utter_greet
   - intent: azure
   - action: utter_azure
-  - action: utter_goodbye
+  - action: utter_anything_else
+  - intent: affirm
   - action: utter_feedback
+  - action: utter_goodbye
 - story: Internet Story
   steps:
   - intent: greet
   - action: utter_greet
   - intent: internet
   - action: utter_internet
-  - action: utter_goodbye
+  - action: utter_anything_else
+  - intent: affirm
   - action: utter_feedback
+  - action: utter_goodbye
 - story: Domain_hosting Story
   steps:
   - intent: greet
   - action: utter_greet
   - intent: domain_hosting
   - action: utter_domain_hosting
-  - action: utter_goodbye
+  - action: utter_anything_else
+  - intent: affirm
   - action: utter_feedback
+  - action: utter_goodbye
 - story: Daftar_forlapsivil Story
   steps:
   - intent: greet
   - action: utter_greet
   - intent: daftar_forlapsivil
   - action: utter_daftar_forlapsivil
-  - action: utter_goodbye
+  - action: utter_anything_else
+  - intent: affirm
   - action: utter_feedback
+  - action: utter_goodbye
 - story: Sim Story
   steps:
   - intent: greet
   - action: utter_greet
   - intent: sim
   - action: utter_sim
-  - action: utter_goodbye
+  - action: utter_anything_else
+  - intent: affirm
   - action: utter_feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 88a4678e102c4d00a532b180a87942f1
+  steps:
+  - action: utter_domain_hosting
+  - action: utter_anything_else
+  - intent: zoom
+  - action: utter_zoom
+  - action: utter_anything_else
+  - intent: affirm
+  - action: utter_feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 0eb8438f04094e0495d71d4119e8df5f
+  steps:
+  - action: utter_zoom
+  - action: utter_anything_else
+  - intent: azure
+  - action: utter_azure
+  - action: utter_anything_else
+  - intent: affirm
+  - action: utter_feedback
+  - action: utter_goodbye
