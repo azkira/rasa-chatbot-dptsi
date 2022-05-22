@@ -41,6 +41,7 @@ nlu:
     - namamu siapa
     - help me with my
     - bantuin my
+    - mau nanya
 - intent: goodbye
   examples: |
     - good afternoon
@@ -70,6 +71,7 @@ nlu:
     - mau ngasih feedback
     - ya
     - iya saya merasa terbantu
+    - aman
 - intent: vpn
   examples: |
     - saya ingin mengakses vpn

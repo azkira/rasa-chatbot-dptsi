@@ -93,7 +93,26 @@ responses:
   utter_sim:
   - text: Jika anda mengalami permasalahan mengenai SIM anda dapat sampaikan keluhan yang anda alami beserta dengan screenshoot dari SIM yang bermasalah kepada servicedesk.its.ac.id.\n\nSelanjutnya mohon ditunggu, akan kami lakukan proses check mengenai sistem terlebih dahulu bersama tim. Terimakasih atas pengertiannya
   utter_anything_else:
-  - text: Apakah Anda sudah merasa terbantu? Jika belum, Anda dapat menuliskan keperluan anda untuk tetap menggunakan layanan Chatbot DPTSI.
+  - buttons:
+    - payload: vpn
+      title: Vpn
+    - payload: my_its_integra
+      title: My Integra
+    - payload: office_365
+      title: Office 365
+    - payload: domain_hosting
+      title: Domain dan Hosting
+    - payload: azure
+      title: Microsoft Azure
+    - payload: teams
+      title: Microsoft Teams
+    - payload: matlab
+      title: Matlab
+    - payload: internet
+      title: Internet
+    - payload: zoom
+      title: Zoom
+    text: Apakah Anda sudah merasa terbantu? Jika belum, Anda dapat menuliskan keperluan anda untuk tetap menggunakan layanan Chatbot DPTSI.
   utter_matlab:
   - text: Jika mendapatkan kendala dalam menginstal Matlab. Kunjungi panduan pada link berikut (https://www.its.ac.id/tsipil/wp-content/uploads/sites/30/2020/09/PETUNJUK_Installasi_dan_Aktivasi_Matlab_01_ITS.pdf)
 actions: []

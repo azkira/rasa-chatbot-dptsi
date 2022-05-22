@@ -213,3 +213,36 @@ stories:
     user: |-
       saya butuh bantuan
   - action: utter_greet
+- story: Story from Conversation ID a70d83f0e1e44a238e4295b98eac17d4
+  steps:
+  - intent: greet
+    user: |-
+      siang
+  - action: utter_greet
+  - intent: greet
+    user: |-
+      halo halo
+  - action: utter_greet
+  - intent: greet
+    user: |-
+      halo halo
+  - action: utter_greet
+  - intent: greet
+    user: |-
+      saya butuh bantuan
+  - action: utter_greet
+  - intent: greet
+    user: |-
+      tolong tolong
+  - action: utter_greet
+- story: Story from Conversation ID 390bfcb092e24454ba3cb58112d59ff0
+  steps:
+  - intent: greet
+    user: |-
+      mau nanya
+  - action: utter_greet
+  - intent: office_365
+    user: |-
+      office_365
+  - action: utter_office_365
+  - action: utter_anything_else
