@@ -44,6 +44,8 @@ nlu:
     - mau nanya
     - permisi
     - punten
+    - wassup brother
+    - belum
 - intent: goodbye
   examples: |
     - good afternoon
@@ -59,6 +61,7 @@ nlu:
     - see you later
     - terima kasih ya
     - makasih banyak infonya
+    - selamat tinggal, terima kasih
 - intent: affirm
   examples: |
     - yes
@@ -77,6 +80,9 @@ nlu:
     - aman
     - sudah merasa cukup terbantu
     - sudah cukup
+    - iya sudah cukup
+    - cukup
+    - iya setuju
 - intent: vpn
   examples: |
     - saya ingin mengakses vpn
@@ -103,7 +109,6 @@ nlu:
     - saya kebetulan lupa password my its
     - saya ingin mengganti password my its
     - gagal login myits
-    - kelas semester ini belum muncul di classroom
     - my_its_integra
 - intent: zoom
   examples: |
@@ -169,6 +174,8 @@ nlu:
     - keluhan terjadi kelambatan pada koneksi internet di teknik komputer
     - wifi sudah mati seminggu di aktuaria, apa prosedur yang harus dilakukan?
     - internet
+    - halo nama saya azki. saya ingin memberikan keluhan terhadap internet di lab tidak bisa digunakan sudah dua minggu. terima kasih
+    - butuh login internet untuk tamu its
 - intent: domain_hosting
   examples: |
     - pindah server website untuk hosting zeus dptsi
@@ -206,6 +213,8 @@ nlu:
     - terjadi masalah pada css my its classroom sehingga tidak dapat mengerjakan soal eas
     - saya ingin bertanya tentang classroom yang tidak bisa dibuka
     - classroom its down
+    - kelas semester ini belum muncul di classroom
+    - skem belum terverifikasi
 - intent: matlab
   examples: |
     - halo saya mengalami kendala dalam menginstall Matlab
