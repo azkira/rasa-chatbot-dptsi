@@ -120,3 +120,25 @@ stories:
   - intent: affirm
   - action: utter_feedback
   - action: utter_goodbye
+- story: Story from Conversation ID a70d83f0e1e44a238e4295b98eac17d4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: greet
+  - action: utter_greet
+  - intent: greet
+  - action: utter_greet
+  - intent: greet
+  - action: utter_greet
+  - intent: greet
+  - action: utter_greet
+- story: Matlab Story
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: matlab
+  - action: utter_matlab
+  - action: utter_anything_else
+  - intent: affirm
+  - action: utter_feedback
+  - action: utter_goodbye

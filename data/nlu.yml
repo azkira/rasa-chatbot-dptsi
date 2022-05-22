@@ -25,6 +25,8 @@ nlu:
     - apa kabar
     - assalamualaikum
     - apa saja yang anda tawarkan?
+    - siang
+    - saya butuh bantuan
 - intent: goodbye
   examples: |
     - good afternoon
@@ -135,3 +137,12 @@ nlu:
     - absen tendik tidak bisa digunakan
     - classroom its tidak responsif sehingga sulit untuk digunakan
     - terjadi masalah pada css my its classroom sehingga tidak dapat mengerjakan soal eas
+- intent: matlab
+  examples: |
+    - halo saya mengalami kendala dalam menginstall Matlab
+    - mohon maaf saya tidak dapat mengakses matlab
+    - matlab tidak bisa diinstal
+    - butuh link untuk mengunduh matlab resmi dari its
+    - apakah semua mahasiwa dapat mengunduh matlab dari its
+    - tolong saya gabisa download matlab
+    - kalo lupa password integra gimana cara download matlab ya trims
