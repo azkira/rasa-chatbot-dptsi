@@ -16,6 +16,15 @@ nlu:
     - goodevening
     - good afternoon
     - halo dptsi
+    - halo nama saya azki
+    - bisa apa aja lu bot
+    - salam kenal dari tekkom
+    - bisa bantu saya?
+    - saya minta tolong
+    - saya adhisti
+    - apa kabar
+    - assalamualaikum
+    - apa saja yang anda tawarkan?
 - intent: goodbye
   examples: |
     - good afternoon

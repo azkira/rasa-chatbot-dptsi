@@ -35,7 +35,7 @@ entities: []
 slots: {}
 responses:
   utter_greet:
-  - text: Halo! Chatbot DPTSI disini, ada yang bisa Saya bantu?
+  - text: Halo! Chatbot DPTSI disini, Saya siap melayani anda mengenai pelayanan yang kami sediakan. Apakah ada yang bisa Saya bantu?
   utter_vpn:
   - text: Jika anda mengalami permasalahan dan ingin mengakses VPN ITS tolong kunjungi website resmi kami.
   utter_goodbye:

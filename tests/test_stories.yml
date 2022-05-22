@@ -141,3 +141,57 @@ stories:
       terbantu
   - action: utter_feedback
   - action: utter_goodbye
+- story: Story from Conversation ID 7a074ef7cb73443c848744b07b79613b
+  steps:
+  - intent: greet
+    user: |-
+      halo nama saya azki
+  - action: utter_greet
+- story: Story from Conversation ID 2e77f3d3824143f9912053b4aff901a8
+  steps:
+  - intent: greet
+    user: |-
+      bisa apa aja lu bot
+  - action: utter_greet
+- story: Story from Conversation ID 074ce589f633448f9bd4aae7f5354af5
+  steps:
+  - intent: greet
+    user: |-
+      salam kenal dari tekkom
+  - action: utter_greet
+- story: Story from Conversation ID 3f1834407fa54667b5f5469def80799c
+  steps:
+  - intent: greet
+    user: |-
+      bisa bantu saya?
+  - action: utter_greet
+- story: Story from Conversation ID 610bda624a194fd9baec538bc7d13660
+  steps:
+  - intent: greet
+    user: |-
+      saya minta tolong
+  - action: utter_greet
+- story: Story from Conversation ID 1687f0a9d0f146fc868216a428091ed0
+  steps:
+  - intent: greet
+    user: |-
+      saya adhisti
+  - action: utter_greet
+- story: Story from Conversation ID 8907fedc0563408f8cc17c70c955667f
+  steps:
+  - intent: greet
+    user: |-
+      apa kabar
+  - action: utter_greet
+- story: Story from Conversation ID 0acbec65ba574b9386eece9775d5362e
+  steps:
+  - intent: greet
+    user: |-
+      assalamualaikum
+  - action: utter_greet
+- story: Story from Conversation ID 4415338c5a2a4decb05c3806478d3569
+  steps:
+  - intent: greet
+    user: |-
+      apa saja yang anda tawarkan?
+  - action: utter_greet
