@@ -50,6 +50,12 @@ responses:
       title: Microsoft Azure
     - payload: teams
       title: Microsoft Teams
+    - payload: matlab
+      title: Matlab
+    - payload: internet
+      title: Internet
+    - payload: zoom
+      title: Zoom
     text: Halo! Chatbot DPTSI disini, Saya siap melayani anda mengenai pelayanan yang kami sediakan. Apakah ada yang bisa Saya bantu?
   utter_vpn:
   - text: Jika anda mengalami permasalahan dan ingin mengakses VPN ITS tolong kunjungi website resmi kami.

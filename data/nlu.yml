@@ -27,6 +27,20 @@ nlu:
     - apa saja yang anda tawarkan?
     - siang
     - saya butuh bantuan
+    - halo
+    - halo saya azki
+    - halooo aku adhisti
+    - shalom
+    - halo nama saya andan
+    - halo chatbot dptsi
+    - halo bot
+    - hai
+    - aku azki
+    - halo halo
+    - tolong tolong
+    - namamu siapa
+    - help me with my
+    - bantuin my
 - intent: goodbye
   examples: |
     - good afternoon
@@ -40,6 +54,7 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - terima kasih ya
 - intent: affirm
   examples: |
     - yes
@@ -51,6 +66,10 @@ nlu:
     - saya merasa sudah terbantu
     - sudah
     - terbantu
+    - mau ngasih ulasan
+    - mau ngasih feedback
+    - ya
+    - iya saya merasa terbantu
 - intent: vpn
   examples: |
     - saya ingin mengakses vpn
@@ -60,6 +79,10 @@ nlu:
     - prosedur untuk menggunakan vpn
     - pengajuan untuk mendapatkan akses vpn
     - saya butuh vpn sekarang juga
+    - vpn aman ?
+    - halo saya ingin bertanya, bagaimana saya dapat mengakses vpn its
+    - saya ingin mengakses layanan vpn
+    - vpn
 - intent: my_its_integra
   examples: |
     - mohon bantuannya untuk reset password integra
@@ -68,6 +91,11 @@ nlu:
     - unlock akun MyITS saya untuk melakukan absen
     - ingin bertanya jika saya lupa password MyITS
     - saya lupa password dan username di Integra
+    - mas saya lupa password integra tolong bgt nih sorry sorry
+    - lupa password integraku
+    - saya kebetulan lupa password my its
+    - saya ingin mengganti password my its
+    - gagal login myits
 - intent: zoom
   examples: |
     - saya ingin mengajukan link meeting untuk kelas
@@ -76,6 +104,9 @@ nlu:
     - apakah zoom yang disediakan oleh ITS berupa akun premium?
     - apakah ITS menyediakan lisensi zoom?
     - bagaimana cara saya dapat mengakses zoom ITS?
+    - saya ingin mengajukan link meet zoom
+    - saya memerlukan akun zoom
+    - saya membutuhkan layanan zoom dari dptsi
 - intent: office_365
   examples: |
     - sinkronisasi office 365 dengan email ITS mahasiswa
@@ -86,6 +117,10 @@ nlu:
     - terdapat keluhan office 365 tidak dapat diakses
     - permisi, saya ingin bertanya mengenai office
     - o365 download its maba
+    - bingung tentang aktifin office
+    - login office maba
+    - aku butuh office 365
+    - saya membutuhkan akun office 365
 - intent: teams
   examples: |
     - request akun Microsoft Teams untuk mahasiswa
@@ -94,6 +129,9 @@ nlu:
     - akun teams untuk keperluan meeting himpunan
     - apakah akun Microsoft ITS mendapatkan layanan Teams?
     - ms teams apakah dapat diakses melalui akun microsoft dari ITS?
+    - teams saya bermasalah
+    - saya ingin microsoft teams
+    - fitur ms team itu apa sih ?
 - intent: azure
   examples: |
     - saya ingin login akun microsoft azure
@@ -102,6 +140,11 @@ nlu:
     - tidak dapat login Microsoft Azure ITS
     - tata cara mendaftar akun ms azure milik its
     - jumlah credit yang diberikan untuk azure mahasiswa
+    - azure
+    - permisi, saya muhammad azki ingin bertanya mengenai layanan microsoft azure apakah dapat dipakai setelah lulus? terima kasih
+    - saya ingin bertanya mengenai layanan ms azure dari its
+    - apakah saya masih bisa mendapatkan credit azure?
+    - mau coba azur
 - intent: internet
   examples: |
     - tidak bisa mengakses internet di wilayah ITS
@@ -120,6 +163,11 @@ nlu:
     - SSL jmmi ITS bermasalah, tolong untuk dibantu
     - minta dibuatkan server untuk keperluan departemen
     - pengajuan hosting untuk lab
+    - oh dan cara hosting ?
+    - mengajukan vps untuk keperluan project di departemen bagaimana caranya?
+    - saya ingin mengajukan vps untuk deploy website laboratorium departemen
+    - saya ingin mengajukan vps untuk website jurusan
+    - akses hosting dan domain
 - intent: daftar_forlapsivil
   examples: |
     - nomor ijazah tidak terdeteksi
@@ -137,6 +185,8 @@ nlu:
     - absen tendik tidak bisa digunakan
     - classroom its tidak responsif sehingga sulit untuk digunakan
     - terjadi masalah pada css my its classroom sehingga tidak dapat mengerjakan soal eas
+    - saya ingin bertanya tentang classroom yang tidak bisa dibuka
+    - classroom its down
 - intent: matlab
   examples: |
     - halo saya mengalami kendala dalam menginstall Matlab
