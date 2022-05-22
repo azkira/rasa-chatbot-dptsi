@@ -42,6 +42,8 @@ nlu:
     - help me with my
     - bantuin my
     - mau nanya
+    - permisi
+    - punten
 - intent: goodbye
   examples: |
     - good afternoon
@@ -56,6 +58,7 @@ nlu:
     - bye bye
     - see you later
     - terima kasih ya
+    - makasih banyak infonya
 - intent: affirm
   examples: |
     - yes
@@ -72,6 +75,8 @@ nlu:
     - ya
     - iya saya merasa terbantu
     - aman
+    - sudah merasa cukup terbantu
+    - sudah cukup
 - intent: vpn
   examples: |
     - saya ingin mengakses vpn
@@ -98,6 +103,8 @@ nlu:
     - saya kebetulan lupa password my its
     - saya ingin mengganti password my its
     - gagal login myits
+    - kelas semester ini belum muncul di classroom
+    - my_its_integra
 - intent: zoom
   examples: |
     - saya ingin mengajukan link meeting untuk kelas
@@ -109,6 +116,8 @@ nlu:
     - saya ingin mengajukan link meet zoom
     - saya memerlukan akun zoom
     - saya membutuhkan layanan zoom dari dptsi
+    - zoom meeting untuk dekan
+    - zoom
 - intent: office_365
   examples: |
     - sinkronisasi office 365 dengan email ITS mahasiswa
@@ -123,6 +132,8 @@ nlu:
     - login office maba
     - aku butuh office 365
     - saya membutuhkan akun office 365
+    - o365 tidak nyambung ke email its
+    - office_365
 - intent: teams
   examples: |
     - request akun Microsoft Teams untuk mahasiswa
@@ -134,6 +145,7 @@ nlu:
     - teams saya bermasalah
     - saya ingin microsoft teams
     - fitur ms team itu apa sih ?
+    - teams
 - intent: azure
   examples: |
     - saya ingin login akun microsoft azure
@@ -147,6 +159,7 @@ nlu:
     - saya ingin bertanya mengenai layanan ms azure dari its
     - apakah saya masih bisa mendapatkan credit azure?
     - mau coba azur
+    - Tata cara untuk mengklaim layanan microsoft azure untuk kepentingan perkuliahan
 - intent: internet
   examples: |
     - tidak bisa mengakses internet di wilayah ITS
@@ -155,6 +168,7 @@ nlu:
     - error jaringan wifi pada gedung elektro
     - keluhan terjadi kelambatan pada koneksi internet di teknik komputer
     - wifi sudah mati seminggu di aktuaria, apa prosedur yang harus dilakukan?
+    - internet
 - intent: domain_hosting
   examples: |
     - pindah server website untuk hosting zeus dptsi
@@ -170,6 +184,8 @@ nlu:
     - saya ingin mengajukan vps untuk deploy website laboratorium departemen
     - saya ingin mengajukan vps untuk website jurusan
     - akses hosting dan domain
+    - bolehkan hima mengajukan hosting website?
+    - ingin tau cara ajuin domain baru buat praktikum
 - intent: daftar_forlapsivil
   examples: |
     - nomor ijazah tidak terdeteksi
@@ -178,6 +194,7 @@ nlu:
     - nomor ijazah alumni salah
     - status lulus ijazah tidak terdaftar pada alumni
     - daftar nomor ijazah ristekdikti
+    - cara upload ijazah kemenristekdikti
 - intent: sim
   examples: |
     - menu sim akademik mahasiswa tidak dapat terlihat
@@ -198,3 +215,6 @@ nlu:
     - apakah semua mahasiwa dapat mengunduh matlab dari its
     - tolong saya gabisa download matlab
     - kalo lupa password integra gimana cara download matlab ya trims
+    - bagaimana cara install matlab ya?
+    - matlab apakah dikasih buat maba?
+    - matlab

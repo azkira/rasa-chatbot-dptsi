@@ -246,3 +246,43 @@ stories:
       office_365
   - action: utter_office_365
   - action: utter_anything_else
+- story: Story from Conversation ID 88c0d14242e74a2399af8e8b86248320
+  steps:
+  - intent: greet
+    user: |-
+      mau nanya
+  - action: utter_greet
+  - intent: office_365
+    user: |-
+      office_365
+  - action: utter_office_365
+  - action: utter_anything_else
+  - intent: affirm
+    user: |-
+      aman
+  - action: utter_feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 09edc1bcf03349a8bfb4c307590b93b8
+  steps:
+  - action: utter_matlab
+  - action: utter_anything_else
+  - intent: teams
+    user: |-
+      teams
+  - action: utter_teams
+  - action: utter_anything_else
+  - intent: my_its_integra
+    user: |-
+      my_its_integra
+  - action: utter_my_its_integra
+  - action: utter_anything_else
+  - intent: vpn
+    user: |-
+      vpn
+  - action: utter_vpn
+  - action: utter_anything_else
+  - intent: affirm
+    user: |-
+      sudah cukup
+  - action: utter_feedback
+  - action: utter_goodbye
