@@ -4,6 +4,7 @@ rules:
   steps:
   - intent: goodbye
   - action: utter_goodbye
+  - action: utter_feedback
 - rule: Say greet anytime the user says greet
   steps:
   - intent: greet
