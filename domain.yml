@@ -33,6 +33,10 @@ intents:
     use_entities: true
 - matlab:
     use_entities: true
+- visio:
+    use_entities: true
+- adobe:
+    use_entities: true
 entities: []
 slots: {}
 responses:
@@ -95,7 +99,7 @@ responses:
   utter_anything_else:
   - buttons:
     - payload: vpn
-      title: Vpn
+      title: Akses VPN
     - payload: my_its_integra
       title: My Integra
     - payload: office_365
@@ -112,9 +116,32 @@ responses:
       title: Internet
     - payload: zoom
       title: Zoom
+    - payload: visio
+      title: Microsoft Visio
     text: Apakah Anda sudah merasa terbantu? Jika belum, Anda dapat menuliskan keperluan anda untuk tetap menggunakan layanan Chatbot DPTSI.
   utter_matlab:
   - text: Jika mendapatkan kendala dalam menginstal Matlab. Kunjungi panduan pada link berikut (https://www.its.ac.id/tsipil/wp-content/uploads/sites/30/2020/09/PETUNJUK_Installasi_dan_Aktivasi_Matlab_01_ITS.pdf)
+  utter_visio:
+  - text: |-
+      Berikut merupakan langkah untuk mengunduh Microsoft Visio dari myITS: 1. Silahkan login menggunakan username dan password pada myITS anda,
+      2. Dalam kategori services, pilih Microsoft Azure,
+      3. Dalam Microsoft Azure, cari kolom education
+      4. Dalam menu sebelah kiri, pilihlah software. lalu ketiklah visio pada search bar,
+      5. Kemudian tekan download untuk mengunduh.
+      Jika anda masih memiliki kendala, silahkan hubungi service desk kami, terima kasih.
+  utter_adobe:
+  - text: |-
+      Untuk mendapatkan lisensi adobe silahkan mengajukan surat resmi ke DPTSI ITS, jika sudah lakukan langkah seperti berikut:
+      1. Login ke website adobe.com,
+      2. Download Adobe Creative Clous Software
+      3. Install dan aktivasi software dengan menggunakan email ITS.
+
+      Jika belum mengirimkan surat resmi, silahkan mengirim surat pengajuan yang berisi:
+      1. NIP/NPP
+      2. Nama Lengkap
+      3. Email ITS
+
+      Jika ada pertanyaan lebih lanjut silahkan hubungi service desk DPTSI ITS. Terima kasih.
 actions: []
 forms: {}
 e2e_actions: []

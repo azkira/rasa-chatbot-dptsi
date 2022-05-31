@@ -46,6 +46,12 @@ nlu:
     - punten
     - wassup brother
     - belum
+    - Halo saya azki
+    - malam
+    - Halo nama saya azki
+    - permisi, assalamualaikum nama saya azki
+    - Halo nama saya azki mahasiswa teknik komputer
+    - Halo DPTSI
 - intent: goodbye
   examples: |
     - good afternoon
@@ -62,6 +68,7 @@ nlu:
     - terima kasih ya
     - makasih banyak infonya
     - selamat tinggal, terima kasih
+    - dah makasih ya
 - intent: affirm
   examples: |
     - yes
@@ -83,6 +90,10 @@ nlu:
     - iya sudah cukup
     - cukup
     - iya setuju
+    - oke sudah cukup
+    - saya terbantu
+    - sudah terbantu
+    - saya sudah merasa terbantu, terima kasih.
 - intent: vpn
   examples: |
     - saya ingin mengakses vpn
@@ -96,6 +107,8 @@ nlu:
     - halo saya ingin bertanya, bagaimana saya dapat mengakses vpn its
     - saya ingin mengakses layanan vpn
     - vpn
+    - saya ingin bertanya mengenai tata cara untuk mengakses vpn
+    - Saya ingin bertanya terkait penggunaan vpn di its
 - intent: my_its_integra
   examples: |
     - mohon bantuannya untuk reset password integra
@@ -110,6 +123,8 @@ nlu:
     - saya ingin mengganti password my its
     - gagal login myits
     - my_its_integra
+    - halo saya lupa password di integra
+    - gabisa login integra
 - intent: zoom
   examples: |
     - saya ingin mengajukan link meeting untuk kelas
@@ -123,6 +138,7 @@ nlu:
     - saya membutuhkan layanan zoom dari dptsi
     - zoom meeting untuk dekan
     - zoom
+    - tolong bantu saya setup zoom. gagal terus dari kemarin
 - intent: office_365
   examples: |
     - sinkronisasi office 365 dengan email ITS mahasiswa
@@ -139,6 +155,8 @@ nlu:
     - saya membutuhkan akun office 365
     - o365 tidak nyambung ke email its
     - office_365
+    - saya memiliki kendala dalam melakukan mengunduh office 365
+    - saya mau nanya tentang login office 365 dari its
 - intent: teams
   examples: |
     - request akun Microsoft Teams untuk mahasiswa
@@ -165,6 +183,7 @@ nlu:
     - apakah saya masih bisa mendapatkan credit azure?
     - mau coba azur
     - Tata cara untuk mengklaim layanan microsoft azure untuk kepentingan perkuliahan
+    - Saya memiliki kebingungan dalam menggunakan Microsfot Azure yang diberikan oleh ITS
 - intent: internet
   examples: |
     - tidak bisa mengakses internet di wilayah ITS
@@ -176,6 +195,9 @@ nlu:
     - internet
     - halo nama saya azki. saya ingin memberikan keluhan terhadap internet di lab tidak bisa digunakan sudah dua minggu. terima kasih
     - butuh login internet untuk tamu its
+    - koneksi internet di lab mati
+    - ITS sedang masalah koneksi internet ?
+    - koneksi internet di departemen teknik elektro bermasalah
 - intent: domain_hosting
   examples: |
     - pindah server website untuk hosting zeus dptsi
@@ -193,6 +215,7 @@ nlu:
     - akses hosting dan domain
     - bolehkan hima mengajukan hosting website?
     - ingin tau cara ajuin domain baru buat praktikum
+    - saya mau mengajukan penggunaan vps
 - intent: daftar_forlapsivil
   examples: |
     - nomor ijazah tidak terdeteksi
@@ -202,6 +225,9 @@ nlu:
     - status lulus ijazah tidak terdaftar pada alumni
     - daftar nomor ijazah ristekdikti
     - cara upload ijazah kemenristekdikti
+    - ijazah saya belum verifikasi
+    - forlapsivil
+    - halo nama di ijazah saya salah
 - intent: sim
   examples: |
     - menu sim akademik mahasiswa tidak dapat terlihat
@@ -215,6 +241,11 @@ nlu:
     - classroom its down
     - kelas semester ini belum muncul di classroom
     - skem belum terverifikasi
+    - SIM
+    - sim
+    - terjadi kesalahan ketika saya ingin mengakses kelas di classroom
+    - halo saya tidak bisa mengakses classroom
+    - classroom lagi down ? saya gagal akses soalnya
 - intent: matlab
   examples: |
     - halo saya mengalami kendala dalam menginstall Matlab
@@ -227,3 +258,44 @@ nlu:
     - bagaimana cara install matlab ya?
     - matlab apakah dikasih buat maba?
     - matlab
+    - saya membutuhkan pedoman untuk menginstal matlab
+    - cara instalasi matlab gimana ?
+    - matlab tersedia lisensi ?
+    - labmat bisa dapat lisensi ?
+    - saya membutuhkan panduan untul instalasi matlab
+- intent: visio
+  examples: |
+    - bagimana cara mendownload visio pada dari myits
+    - saya tidak dapat mengakses visio dari my its
+    - microsoft visio its
+    - aktifasi visio its
+    - saya membutuhkan layanan visio its
+    - request licensi visio mahasiswa
+    - software visio minta sedia visio
+    - assalamualaikum tanya akses install visio
+    - dptsi mohon untuk aktivasi visio mahasiswa
+    - saya mahasiswi transportasi laut ingin aktivasi visio
+    - minta aktivasi visio 365 mahasiswa
+    - minta aktifasi visio direktorat minta akses
+    - minta akses visio 365
+    - visio dptsi aktivasi akun visio langkah aksesnya email haka bobby mhs mat eng its
+    - minta aktivasi visiso 365 minta aktivasi visio 365
+    - visio
+    - mau tanya gimana install visio
+    - cara install ms visio
+- intent: adobe
+  examples: |
+    - ingin mengajukan surat untuk lisensi adobe dari its
+    - tanya perihal lisensi adobe milik its
+    - ingin ajukan software dit pdf adobe mahasiswa
+    - ingin mengajukan lisensi adobe dari its
+    - tata cara pengajuan adobe pdf pro
+    - adobe its
+    - minta template surat pengajuan adobe its
+    - dptsi mohon aktifasi akun adobe mahasiswa
+    - pedoman instalasi adobe premium akun email its
+    - minta tolong ajukan adobe
+    - tidak dibalas surat pengajuan adobe
+    - minta adobe dari its bagimana cara
+    - adobe its bagimana panduan untuk download
+    - tidak dapat masukan email its untuk download adobe

@@ -168,3 +168,34 @@ stories:
   - intent: affirm
   - action: utter_feedback
   - action: utter_goodbye
+- story: Visio Story
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: visio
+  - action: utter_visio
+  - action: utter_anything_else
+  - intent: affirm
+  - action: utter_feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID aa3103eeefaf4629a23106af3f951267
+  steps:
+  - intent: visio
+  - action: utter_visio
+  - action: utter_anything_else
+  - intent: visio
+  - action: utter_visio
+  - action: utter_anything_else
+  - intent: teams
+  - action: utter_teams
+  - action: utter_anything_else
+- story: Adobe Story
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: adobe
+  - action: utter_adobe
+  - action: utter_anything_else
+  - intent: affirm
+  - action: utter_feedback
+  - action: utter_goodbye
